@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// made on: Oct 2018
+// made by: Benjamin Hilderman
+// made for: ICS3U
+// This converts celcius to degrees 
+
+func convertDegrees(degreesCelciusSent : Float){
+    let degreesFahrenheit = (9 / 5) * degreesCelciusSent + 32
+    show("\(String(degreesFahrenheit)) Degrees")
+}
+
+let degreesCelcius = askForNumber("Enter the degrees in celcius")
+convertDegrees(degreesCelciusSent : Float(degreesCelcius))
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 397}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 72}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
